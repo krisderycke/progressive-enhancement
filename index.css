@@ -1,12 +1,12 @@
 body {
     max-width: 90%;
     margin:0 auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: rgb(73, 53, 53);
     letter-spacing: 0.1em;
     background: -webkit-linear-gradient(-5deg, rgb(22, 135, 237), rgb(58, 209, 168));
     background: linear-gradient(-5deg, rgb(22, 135, 237), rgb(58, 209, 168));
-    background-image: url(horses.png);
+    background-image: url(horses2.png);
     background-size: cover;
     background-attachment: fixed;
 	background-position:bottom right;
@@ -15,9 +15,8 @@ body {
     width: auto;
     }
 
-p:first-child {
+body > p:first-of-type {
     font-weight: bold;
-   background-color: red;
 }
 
 a:link {
@@ -92,5 +91,10 @@ tr:nth-child(odd) {
 
 tr: :nth-child(even) {
     background-color: white;
+}
+
+figure {
+    float: left;   
+    padding-right: 20px;
 }
 
