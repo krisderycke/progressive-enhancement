@@ -1,1 +1,1 @@
-# progressive-enhancement
+https://krisderycke.github.io/progressive-enhancement/
