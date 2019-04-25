@@ -15,6 +15,11 @@ body {
     width: auto;
     }
 
+p:first-child {
+    font-weight: bold;
+   background-color: red;
+}
+
 a:link {
     color: blue;
     font-size: 18px;
@@ -89,6 +94,3 @@ tr: :nth-child(even) {
     background-color: white;
 }
 
-/*#a {
-    background-color: rgb(240, 18, 18);
-}
